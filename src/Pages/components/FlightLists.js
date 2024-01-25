@@ -19,7 +19,7 @@ const FlightLists = () => {
 
     return (
         <div>
-            <div className={`bg-white p-5 rounded-md w-full lg:h-[130px] mb-4 shadow-[0_2px_3px_0_rgba(0,0,0,0.05)] ${isDropdownOpen ? 'mb-0 rounded-b-none' : ''} `}>
+            <div className={`bg-white p-5 rounded-md w-full lg:h-[130px] mb-0 shadow-[0_2px_3px_0_rgba(0,0,0,0.05)] ${isDropdownOpen ? 'mb-0 rounded-b-none' : 'mb-4'} `}>
                 <div className='lg:flex justify-between gap-x-7'>
 
                     <div className='mb-4 lg:mb-0'>
